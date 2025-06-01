@@ -106,7 +106,7 @@ export const Skills = () => {
               <h2>Skills</h2>
 
               {/* Filter chips */}
-              <div className="filter-chips" style={{ marginTop: "12px", marginBottom: "36px" }}>
+              <div className="filter-chips" style={{ marginTop: "16px", marginBottom: "36px" }}>
                 {categories.map((category) => (
                   <button
                     key={category}
