@@ -10,7 +10,7 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
             overflow: "hidden",
             transition: "box-shadow 0.3s ease",
           }}>
-        <img src={imgUrl} />
+        <img src={imgUrl} alt={ title }/>
         <div className="proj-txtx">
           <h4 style = {{ margin: "0 6px 16px 6px" }}>{title}</h4>
           <p style = {{
