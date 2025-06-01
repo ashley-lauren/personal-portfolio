@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.8a3d0bda.css",
+    "main.js": "/personal-portfolio/static/js/main.6f3f0aec.js",
+    "static/js/453.1407b060.chunk.js": "/personal-portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/logo.png": "/personal-portfolio/static/media/logo.670e7920f3ca9d662884.png",
+    "static/media/color-sharp2.png": "/personal-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/movieland.png": "/personal-portfolio/static/media/movieland.bf9bfd7f3b6636c722a0.png",
+    "static/media/personal-portfolio.png": "/personal-portfolio/static/media/personal-portfolio.0f4bd3329e14776bf29d.png",
+    "static/media/black-raindrops-bg.jpg": "/personal-portfolio/static/media/black-raindrops-bg.44a653b53d669bf04a06.jpg",
+    "static/media/ashley.png": "/personal-portfolio/static/media/ashley.7b9d353cbf0319877195.png",
+    "static/media/thoughtx.png": "/personal-portfolio/static/media/thoughtx.2a9a306d8884534b178d.png",
+    "static/media/CentraNo2-Bold.ttf": "/personal-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/personal-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/personal-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/ahavah.png": "/personal-portfolio/static/media/ahavah.ee6b2b7dfc0502972c88.png",
+    "static/media/revicons.eot": "/personal-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/personal-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/personal-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/github-logo.svg": "/personal-portfolio/static/media/github-logo.ba97b716b70221f48c1fc20090acc33c.svg",
+    "static/media/goodreads-logo.svg": "/personal-portfolio/static/media/goodreads-logo.c08a62fb4be016d17c8472a2e0348294.svg",
+    "static/media/linkedin-logo.svg": "/personal-portfolio/static/media/linkedin-logo.19d4c078245de6efed3cfa81cb943099.svg",
+    "index.html": "/personal-portfolio/index.html",
+    "main.8a3d0bda.css.map": "/personal-portfolio/static/css/main.8a3d0bda.css.map",
+    "main.6f3f0aec.js.map": "/personal-portfolio/static/js/main.6f3f0aec.js.map",
+    "453.1407b060.chunk.js.map": "/personal-portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a3d0bda.css",
+    "static/js/main.6f3f0aec.js"
+  ]
+}
