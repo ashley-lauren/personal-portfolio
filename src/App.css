@@ -518,9 +518,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Contact form Css ************/
+
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
+  background-image: url('./assets/img/black-raindrops-bg.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.contact::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: -1;
 }
 .contact img {
   width: 92%;
@@ -558,12 +571,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button {
   font-weight: 700;
-  color: #000;
+  color: var(--text-dark);
   background-color: #fff;
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
+  border-radius: 12px;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -576,10 +589,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: var(--green);
   width: 0;
   height: 100%;
   position: absolute;
+  border-radius: 12px;
   top: 0;
   left: 0;
   z-index: 0;

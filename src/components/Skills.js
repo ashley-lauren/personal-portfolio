@@ -14,9 +14,9 @@ export const Skills = () => {
    { name: "Flask", percentage: 70, category: "Development" },
    { name: "Scalability & Performance Optimization", percentage: 65, category: "Development" },
    { name: "Docker", percentage: 50, category: "Development" },
+    { name: "CI/CD (GitHub Actions)", percentage: 50, category: "Development" },
    { name: "Web Development", percentage: 40, category: "Development" },
    { name: "GraphQL APIs", percentage: 40, category: "Development" },
-   { name: "CI/CD (GitHub Actions)", percentage: 20, category: "Development" },
    { name: "Kubernetes", percentage: 10, category: "Development" },
 
    // Programming
@@ -55,7 +55,7 @@ export const Skills = () => {
    { name: "CSS", percentage: 75, category: "Frameworks & Tools" },
    { name: "Bootstrap", percentage: 40, category: "Frameworks & Tools" },
    { name: "Node.js", percentage: 40, category: "Frameworks & Tools" },
-   { name: "React.js", percentage: 35, category: "Frameworks & Tools" },
+   { name: "React.js", percentage: 40, category: "Frameworks & Tools" },
    { name: "Express.js", percentage: 35, category: "Frameworks & Tools" },
 
    // Design
