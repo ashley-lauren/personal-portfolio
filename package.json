@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -u \"github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>\""
   },
   "eslintConfig": {
     "extends": [
