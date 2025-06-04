@@ -77,15 +77,15 @@ export const Contact = () => {
                     </Col>
                     <Col size={12} className="px-1">
                       <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
+                       {
+                      status.message &&
+                      <Col>
+                        <p className={status.success === false ? "danger" : "success"} style= {{ padding: "12px 4px 16px 0" }}>{status.message}</p>
+                      </Col>
+                    }
                       <button type="submit"><span>{buttonText}</span></button>
                     </Col>       
                   </Row>
-                  {
-                      status.message &&
-                      <Col style= {{ paddingTop: "6px" }}>
-                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                      </Col>
-                    }
                 </form>
               </div>}
             </TrackVisibility>
